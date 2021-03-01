@@ -1,0 +1,285 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+
+/* *********************** */
+/* Common_Start */
+.color_blue {
+    background-color: #0185D0;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+/* Common_End */
+
+/* *********************** */
+
+/* Header Section Start */
+.logo {
+    width:40%;
+    padding: 20px 0;
+}
+
+.logo img{
+    width:100%;
+}
+/* Header Section End */
+
+/* *********************** */
+
+/* Banner Start */
+
+.banner {
+    padding: 50px 0;
+    position:relative;
+}
+
+.banner img {
+    width:100%;
+    margin-bottom:-4px;
+}
+
+.banner_content {
+    padding: 50px 0px;
+    position:absolute;
+    width:70%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(255, 255, 255, 0.80);
+    padding: 32px 27px;
+    border-radius: 25px;
+}
+
+.banner_content  h1 {
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 43.2pt;
+    color:#0085cf;
+    text-align:center;
+}
+
+.banner_content  p {
+    margin-top: 10px;
+    line-height: 47px;
+    font-family:Helvetica, sans-serif;
+    font-weight:400;
+    font-size: 38px;
+    text-align:center;
+}
+/* Banner End */
+
+/* *********************** */
+
+/* Testimonial Strat */
+.testimonial {
+    padding-bottom:50px;
+}
+
+.testimonial_top {
+    padding-bottom: 33px;
+}
+
+.testimonial_top h1{
+    font-family:Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight:bold;
+    color:#0085cf;
+    text-align:center;
+}
+
+.testimonial_bottom {
+    overflow:hidden;
+}
+
+.about_testimonial {
+    width:30%;
+    float:left;
+}
+
+.about_testimonial:nth-child(2),.about_testimonial:nth-child(3) {
+    margin-left:60px;
+}
+
+.about_testimonial_image {
+    width:100%;
+}
+
+.about_testimonial_image img{
+    width:100%;
+}
+
+.about_testimonial_heading {
+    margin: 13px 0px;
+}
+
+.about_testimonial_heading h1{
+    font-family:Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+}
+
+button {
+    border:none;
+    outline:none;
+    font-family:arial;
+    font-size: 13pt;
+    padding: 7px 18px;
+    color:white;
+    background-color: #0085cf;
+    border-radius: 13px;
+    transition:0.3s;
+}
+
+button:hover {
+    background-color: #065a88;
+    cursor:pointer;
+}
+/* Testimonial End */
+
+/* *********************** */
+
+/* Reminder Start */
+
+.reminder_wrapper {
+    padding-bottom:50px;
+}
+
+.reminder{
+    font-family:Helvetica, sans-serif;
+    padding: 20px 40px;
+    color:white;
+    border-radius:25px;
+}
+
+.reminder p:first-child{
+    font-weight:bold;
+    font-size: 33px;
+}
+
+.reminder p:last-child{
+    font-size: 23px;
+    margin-top: 7px;
+}
+/* Reminder End */
+
+/* *********************** */
+
+/* Updates Start */
+
+.updates{
+    padding-bottom: 50px;
+}
+
+.updates_bottom {
+    overflow:hidden;
+}
+
+.updates_bottom_left {
+    width:40%;
+    float:left;
+}
+
+.updates_bottom_left img{
+    width:100%;
+    margin-bottom:-4px;
+}
+
+.updates_bottom_right {
+    padding: 57px 0;
+    width:57%;
+    float:right;
+}
+
+.updates_bottom_right h1{
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:35px;
+}
+
+.updates_bottom_right p{
+    margin: 20px 0;
+    font-family:Helvetica, sans-serif;
+    font-size:28px;
+}
+
+.updates_bottom:last-child {
+    margin-top:20px;
+}
+/* Updates End */
+
+/* *********************** */
+
+/* Social Media Start */
+.social_media {
+    padding: 34px 0;
+    text-align:center;
+}
+
+.social_para p{
+    font-family:Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.social_icon {
+    margin-top: 5px;
+}
+
+.social_icon ul{
+    list-style:none;
+}
+
+.social_icon ul li{
+    display:inline-block;
+    padding:0 5px;
+}
+
+.social_icon ul li a{
+    font-size: 44px;
+    color:black;
+}
+
+.social_icon ul li:hover a {
+    color:white;
+}
+/* Social Media End */
+
+/* *********************** */
+
+/* Footer Start */
+.footer {
+    padding: 25px 0;
+    text-align:center;
+}
+
+.footer ul{
+    list-style:none;
+}
+
+.footer ul li{
+    padding: 0px 60px;
+    display:inline-block;
+}
+
+.footer ul li a{
+    text-decoration:none;
+    font-family:Helvetica, sans-serif;
+    font-size: 17px;
+    color:black;
+}
+
+.footer ul li:hover {
+    cursor:pointer;
+}
+
+.footer ul li:hover a {
+    color:#065a88;
+}
+/* Footer End */
+
+/* *********************** */
+
